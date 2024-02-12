@@ -5,6 +5,15 @@ function esPositivo(num) {
   // Si el número es negativo ---> "Es negativo".
   // Si el número es 0, devuelve false.
   // Tu código:
-}
+let num1 = Math.sign(num)
+  
+  if (num1 > 0) 
+  return("es positivo")
+ else if (num1 < 0) 
+  return("es negativo")
+else if(num1 === 0)
+  return(false)
 
+
+esPositivo(20)
 module.exports = esPositivo;
