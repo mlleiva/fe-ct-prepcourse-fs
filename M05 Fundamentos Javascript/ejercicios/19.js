@@ -8,12 +8,12 @@ function esPositivo(num) {
 let num1 = Math.sign(num)
   
   if (num1 > 0) 
-  return("es positivo")
+  return("Es positivo")
  else if (num1 < 0) 
-  return("es negativo")
+  return("Es negativo")
 else if(num1 === 0)
   return(false)
 
-
+}
 esPositivo(20)
 module.exports = esPositivo;
